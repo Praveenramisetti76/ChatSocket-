@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chatroom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Sidebar with users -->
+        <div class="sidebar" id="users">
+            <h3>Users Online</h3>
+            <ul></ul>
+        </div>
+        <!-- Chat messages + input area -->
+        <div class="chatbox">
+            <div id="messages" class="messages"></div>
+            <div class="input-area">
+                <input type="text" id="message" placeholder="Type your message here... 😊" autocomplete="off" />
+                <button id="send">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>
